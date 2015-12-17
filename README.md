@@ -57,21 +57,28 @@ Endpoints for getting User information.
 | --- | --- | --- |
 | `GET` | [/v0/me](/v0/user.md#get-user-info) | Get user information for access token |
 
-### [Library](/v0/library.md)
+### [Favorites](/v0/favorites.md#favorites)
 
-Endpoints for getting a user's library of blocks.
+Endpoints for getting a user's favorite blocks.
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| `GET` | [/v0/library](/v0/library.md#library) | Get user's library |
+| `GET` | [/v0/favorites](/v0/favorites.md#list-favorites) | Get user's favorite blocks |
 
-### [Tags](/v0/tags.md)
+### [Tags](/v0/tags.md#tags)
 
 Endpoints for getting tags on Blockspring.
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| `GET` | [/v0/tags](/v0/tags.md#tags) | Get official Blockspring tags |
+| `GET` | [/v0/tags](/v0/tags.md#list-tags) | Get official Blockspring tags |
+| `GET` | [/v0/tags/:tag_id](/v0/tags.md#get-a-tag) | Get tag and blocks with that tag |
+
+### [Blocks](/v0/blocks.md#blocks)
+
+## Executing Blocks
+
+\# TODO
 
 ## Javascript SDK
 
