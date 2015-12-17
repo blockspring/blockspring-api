@@ -36,7 +36,7 @@ __Response format:__ json
 Endpoints for testing API clients and access tokens.
 
 | Endpoint | Description |
-|-|
+|-|-|
 | `GET` [/v0/marco](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md#marco) | Test simple `GET` request. Replies `200` "POLO!" |
 | `POST` [/v0/echo](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md#echo) | Test simple `POST` request. Replies `200` with payload you send. |
 
