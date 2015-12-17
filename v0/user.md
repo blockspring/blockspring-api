@@ -7,6 +7,8 @@
 
 Get information about the current user.
 
+### Endpoint
+
 `GET /v0/me`
 
 ### Parameters
@@ -16,11 +18,13 @@ Get information about the current user.
 | N/A | N/A | N/A |
 
 ### Response
-```
+
+```http
 Status: 200 OK
 X-Blockspring-Api-Version: v0
 ```
-```json
+
+```javascript
 {
   "id": 3,
   "name": "Jason Tokoph",
