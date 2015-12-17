@@ -40,13 +40,13 @@ Endpoints for testing API clients and access tokens.
 | `GET` [/v0/marco](/v0/test.md#marco) | Test simple `GET` request. Replies `200` "POLO!" |
 | `POST` [/v0/echo](/v0/test.md#echo) | Test simple `POST` request. Replies `200` with payload you send. |
 
-### [User](/v0/user.md)
+### [User](/v0/user.md#user)
 
 Endpoints for getting User information.
 
 | Endpoint | Description |
 | --- | --- |
-| `GET` [/v0/me](/v0/user.md#me) | Get user information for access token |
+| `GET` [/v0/me](/v0/user.md#get-user-info) | Get user information for access token |
 
 ### [Library](/v0/library.md)
 
