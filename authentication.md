@@ -94,7 +94,7 @@ Blockspring currently only as two scopes. These scopes are enabled by default an
 - `library`: Make authenticated requests to the http API
 - `run`: Run blocks on behalf of the user via run.blockspring.com
 
-## Authenticated API Requests
+## Authenticated Requests
 
 All requests to the Blockspring API require authentication. You can authenticate a request by passing a user's access token.
 
