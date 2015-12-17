@@ -6,7 +6,7 @@ This repository contains the documentation for the Blockspring API.
 
 Blockspring uses oAuth2 for authenticating applications.
 
-[View the Authentication Documentation](https://github.com/blockspring/blockspring-api/blob/master/authentication.md)
+[View the Authentication Documentation](https://github.com/blockspring/blockspring-api/blob/master/authentication.md#authentication)
 
 Manage your apps: [Developer App Dashboard](https://auth.blockspring.com/oauth/applications)
 
