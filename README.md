@@ -31,14 +31,14 @@ __Response format:__ json
 
 ## Endpoints
 
-### [Test](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md)
+### [Test](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md#test)
 
 Endpoints for testing API clients and access tokens.
 
 | Endpoint | Description |
 | --- | --- |
-| `GET` [/v0/marco](/v0/test.md#marco) | Test simple `GET` request. Replies `200` "POLO!" |
-| `POST` [/v0/echo](/v0/test.md#echo) | Test simple `POST` request. Replies `200` with payload you send. |
+| `GET` [/v0/marco](/v0/test.md#test-get) | Test simple `GET` request. Replies `200` "POLO!" |
+| `POST` [/v0/echo](/v0/test.md#test-post) | Test simple `POST` request. Replies `200` with payload you send. |
 
 ### [User](/v0/user.md#user)
 

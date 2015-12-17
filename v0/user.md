@@ -1,6 +1,6 @@
 # User
 
-1. [Get User Info](#)
+1. [Get User Info](#get-user-info)
 
 
 ## Get User Info
