@@ -29,9 +29,9 @@ __Response format:__ json
 
 \# TODO
 
-### Endpoints
+## Endpoints
 
-#### [Test](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md)
+### [Test](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md)
 
 Endpoints for testing API clients and access tokens.
 
@@ -40,7 +40,7 @@ Endpoints for testing API clients and access tokens.
 | `GET` [/v0/marco](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md#marco) | Test simple `GET` request. Replies `200` "POLO!" |
 | `POST` [/v0/echo](https://github.com/blockspring/blockspring-api/blob/master/v0/test.md#echo) | Test simple `POST` request. Replies `200` with payload you send. |
 
-#### [User](https://github.com/blockspring/blockspring-api/blob/master/v0/user.md)
+### [User](https://github.com/blockspring/blockspring-api/blob/master/v0/user.md)
 
 Endpoints for getting User information.
 
@@ -48,7 +48,7 @@ Endpoints for getting User information.
 | --- | --- |
 | `GET` [/v0/me](https://github.com/blockspring/blockspring-api/blob/master/v0/user.md#me) | Get user information for access token |
 
-#### [Library](https://github.com/blockspring/blockspring-api/blob/master/v0/library.md)
+### [Library](https://github.com/blockspring/blockspring-api/blob/master/v0/library.md)
 
 Endpoints for getting a user's library of blocks.
 
@@ -56,7 +56,7 @@ Endpoints for getting a user's library of blocks.
 | --- | --- |
 | `GET` [/v0/library](https://github.com/blockspring/blockspring-api/blob/master/v0/library.md#library) | Get user's library |
 
-#### [Tags](https://github.com/blockspring/blockspring-api/blob/master/v0/tags.md)
+### [Tags](https://github.com/blockspring/blockspring-api/blob/master/v0/tags.md)
 
 Endpoints for getting tags on Blockspring.
 
