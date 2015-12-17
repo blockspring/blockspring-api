@@ -36,7 +36,7 @@ Test your API client's POST requests
 
 ### Endpoint
 
-`GET /v0/echo`
+`POST /v0/echo`
 
 ### Parameters
 
