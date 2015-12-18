@@ -18,7 +18,7 @@ This repository contains the documentation for the Blockspring API.
 
 ## Authentication
 
-Blockspring uses oAuth2 for authenticating applications.
+Blockspring uses OAuth2 for authenticating applications.
 
 [View the Authentication Documentation](https://github.com/blockspring/blockspring-api/blob/master/authentication.md#authentication)
 
@@ -124,11 +124,15 @@ Endpoints for getting tags on Blockspring.
 
 ## Executing Blocks
 
-\# TODO
+Blocks are executed via another system at `https://run.blockspring.com` instead of `https://api.blockspring.com`.
+
+Authentication for running blocks is done with the same access_token retrieved via OAuth.
+
+[View the Block Execution documentation](/block_execution.md)
 
 ## Javascript SDK
 
-\# TODO
+\# WIP
 
 ## Changelog
 
