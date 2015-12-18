@@ -30,13 +30,30 @@ https://api.blockspring.com/v0/me?callback=myfunction
 
 ### Response
 
-```
-/**/myfunction({"meta":{"X-Blockspring-API-Version":"v0","status":200},"data":{"id":3,"name":"Jason Tokoph","username":"jtokoph","organization":{"name":"Blockspring","subdomain":"blockspring","url":"https://api.blockspring.com/v0/organization?access_token={access_token}"},"url":"https://api.blockspring.com/v0/me?access_token={access_token}","favorites_url":"https://api.blockspring.com/v0/favorites?access_token={access_token}"}})
+```javascript
+/**/myfunction({
+  "meta": {
+    "status": 200,
+    "X-Blockspring-API-Version": "v0"
+  },
+  "data": {,
+    "id": 3,
+    "username": "jtokoph",
+    "name": "Jason Tokoph",
+    "favorites_url": "https://api.blockspring.com/v0/favorites?access_token={access_token}",
+    "url": "https://api.blockspring.com/v0/me?access_token={access_token}",
+    "organization": {
+      "subdomain": "blockspring",
+      "name": "Blockspring",
+      "url": "https://api.blockspring.com/v0/organization?access_token={access_token}"
+    }
+  }
+})
 ```
 
 ### CORS
 
-\# TODO
+The Blockspring API supports Cross Origin Resource Sharing (CORS) for AJAX requests from any origin.
 
 ## Endpoints
 
