@@ -25,13 +25,13 @@ The Blockspring v0 API supports [JSONP](https://en.wikipedia.org/wiki/JSONP) for
 #### Request
 
 ```
-https://api.blockspring.com/v0/marco?callback=myfunction
+https://api.blockspring.com/v0/me?callback=myfunction
 ```
 
 ### Response
 
 ```
-myfunction({"shout":"POLO!"});
+/**/myfunction({"meta":{"X-Blockspring-API-Version":"v0","status":200},"data":{"id":3,"name":"Jason Tokoph","username":"jtokoph","organization":{"name":"Blockspring","subdomain":"blockspring","url":"https://api.blockspring.com/v0/organization?access_token={access_token}"},"url":"https://api.blockspring.com/v0/me?access_token={access_token}","favorites_url":"https://api.blockspring.com/v0/favorites?access_token={access_token}"}})
 ```
 
 ### CORS
