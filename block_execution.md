@@ -7,7 +7,9 @@ Executing blocks is as easy as making a `POST` request to `https://run.blockspri
 To run the `math` block, make a request like so:
 
 ```bash
-curl -H "Content-Type: application/json" -d "{ \"expression\": \"3+3\" }" "https://run.blockspring.com/api_v2/blocks/math?api_key={access_token}"
+curl -H "Content-Type: application/json" \
+     -d "{ \"expression\": \"3+3\" }" \
+     "https://run.blockspring.com/api_v2/blocks/math?api_key={access_token}"
 ```
 
 Pass the user's access token which can be acquired via our [OAuth flow](/authentication.md#authentication).
@@ -41,7 +43,9 @@ Graceful errors are errors that the block creator caught and reacted to. These e
 #### Sample Request
 
 ```bash
-curl -H "Content-Type: application/json" -d "{ \"email\": \"paul@blockspring.com\" }" "https://run.blockspring.com/api_v2/blocks/invite-blockspring-slack?api_key={access_token}"
+curl -H "Content-Type: application/json" \
+     -d "{ \"email\": \"paul@blockspring.com\" }" \
+     "https://run.blockspring.com/api_v2/blocks/invite-blockspring-slack?api_key={access_token}"
 ```
 
 #### Sample Response

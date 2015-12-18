@@ -1,4 +1,4 @@
-# Blockspring API Documentation (Closed Beta - v0)
+# Blockspring API Documentation (Beta - v0)
 
 This repository contains the documentation for the Blockspring API.
 
