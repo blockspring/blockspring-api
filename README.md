@@ -82,6 +82,15 @@ Endpoints for getting block info.
 | --- | --- | --- |
 | `GET` | [/v0/blocks/:block_id](/v0/blocks.md#get-a-block) | Get block metadata |
 
+### [Tags](/v0/organizations.md#organizations)
+
+Endpoints for getting tags on Blockspring.
+
+| Method | Endpoint | Description |
+| --- | --- | --- |
+| `GET` | [/v0/organizations](/v0/organizations.md#get-organization-info) | Get information about the current user's organization |
+| `GET` | [/v0/organizations/tags](/v0/organizations.md#get-a-tag) | Get an organization's tags |
+
 ## Executing Blocks
 
 \# TODO
