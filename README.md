@@ -132,7 +132,7 @@ Authentication for running blocks is done with the same access_token retrieved v
 
 ## Javascript SDK
 
-\# WIP
+The Blockspring Javascript SDK allows your website to interact with the Blockspring platform with a simple to use interface. It currently only supports opening a block form window for users to test and preconfigure block runs. More information can be found on the [Javascript SDK page](/javascript_sdk.md#javascript-sdk)
 
 ## Changelog
 
