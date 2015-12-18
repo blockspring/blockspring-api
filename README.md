@@ -128,7 +128,7 @@ Blocks are executed via another system at `https://run.blockspring.com` instead 
 
 Authentication for running blocks is done with the same access_token retrieved via OAuth.
 
-[View the Block Execution documentation](/block_execution.md)
+[View the Block Execution documentation](/block_execution.md#block-execution)
 
 ## Javascript SDK
 
