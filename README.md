@@ -76,6 +76,12 @@ Endpoints for getting tags on Blockspring.
 
 ### [Blocks](/v0/blocks.md#blocks)
 
+Endpoints for getting block info.
+
+| Method | Endpoint | Description |
+| --- | --- | --- |
+| `GET` | [/v0/blocks/:block_id](/v0/blocks.md#get-a-block) | Get block metadata |
+
 ## Executing Blocks
 
 \# TODO

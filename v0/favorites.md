@@ -13,9 +13,7 @@ Get a list of the current user's favorite blocks.
 
 ### Parameters
 
-| Name | Type | Description|
-| --- | --- | --- |
-| N/A | N/A | N/A |
+None
 
 ### Response
 

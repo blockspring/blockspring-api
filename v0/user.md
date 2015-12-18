@@ -13,9 +13,7 @@ Get information about the current user.
 
 ### Parameters
 
-| Name | Type | Description|
-| --- | --- | --- |
-| N/A | N/A | N/A |
+None
 
 ### Response
 

@@ -13,9 +13,7 @@ Get a list of the official tags on Blockspring.
 
 ### Parameters
 
-| Name | Type | Description|
-| --- | --- | --- |
-| N/A | N/A | N/A |
+None
 
 ### Response
 
@@ -92,9 +90,7 @@ Get info and list of blocks for a tag.
 
 ### Parameters
 
-| Name | Type | Description|
-| --- | --- | --- |
-| N/A | N/A | N/A |
+None
 
 ### Response
 

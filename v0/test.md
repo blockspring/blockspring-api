@@ -13,9 +13,7 @@ Test your API client's GET requests
 
 ### Parameters
 
-| Name | Type | Description|
-| --- | --- | --- |
-| N/A | N/A | N/A |
+None
 
 ### Response
 
