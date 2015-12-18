@@ -2,6 +2,20 @@
 
 This repository contains the documentation for the Blockspring API.
 
+- [Authentication](#authentication)
+- [HTTP API](#http-api)
+  - [Basics](#basics)
+  - [JSONP](#jsonp)
+  - [CORS](#cors)
+- [Endpoints](#endpoints)
+  - [Test](#test)
+  - [User](#user)
+  - [Favorites](#Favorites)
+  - [Tags](#Tags)
+  - [Organizations](#Organizations)
+- [Executing Blocks](#executing-blocks)
+- [Javascript SDK](#javascript-sdk)
+
 ## Authentication
 
 Blockspring uses oAuth2 for authenticating applications.
@@ -28,7 +42,7 @@ The Blockspring v0 API supports [JSONP](https://en.wikipedia.org/wiki/JSONP) for
 https://api.blockspring.com/v0/me?callback=myfunction
 ```
 
-### Response
+#### Response
 
 ```javascript
 /**/myfunction({
@@ -99,7 +113,7 @@ Endpoints for getting block info.
 | --- | --- | --- |
 | `GET` | [/v0/blocks/:block_id](/v0/blocks.md#get-a-block) | Get block metadata |
 
-### [Tags](/v0/organizations.md#organizations)
+### [Organizations](/v0/organizations.md#organizations)
 
 Endpoints for getting tags on Blockspring.
 
