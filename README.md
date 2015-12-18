@@ -10,9 +10,9 @@ This repository contains the documentation for the Blockspring API.
 - [Endpoints](#endpoints)
   - [Test](#test)
   - [User](#user)
-  - [Favorites](#Favorites)
-  - [Tags](#Tags)
-  - [Organizations](#Organizations)
+  - [Favorites](#favorites)
+  - [Tags](#tags)
+  - [Organizations](#organizations)
 - [Executing Blocks](#executing-blocks)
 - [Javascript SDK](#javascript-sdk)
 
